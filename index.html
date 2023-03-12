@@ -37,11 +37,12 @@
 
     elPontos.innerText = `pontos: ${pontos}`
     elPergunta.innerText = `Quanto é ${n1} multiplicado por ${n2}`
-
+    pontos = 0;
+    
 
     elForm.addEventListener("submit", ()=>{
         var resposta = elInput.value
-
+        
         if(pontos <= 9){ // entre 5 e 9
             // programa normal
             if(Number(resposta) === resultado){ // acertou
