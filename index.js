@@ -15,13 +15,8 @@ elPergunta.innerText = `Quanto é ${n1} multiplicado por ${n2}`
 
 elForm.addEventListener("submit", ()=>{
     var resposta = elInput.value
-    let elBody = document.getElementById("body");
 
-    if(pontos <= 5){ // entre 1 e 5
-        elBody.style.backgroundColor = '#000';
-    }
-
-    else if(pontos <= 9){ // entre 5 e 9
+    if(pontos <= 9){ // entre 5 e 9
         // programa normal
         if(Number(resposta) === resultado){ // acertou
             pontos++;
