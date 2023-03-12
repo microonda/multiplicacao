@@ -1,0 +1,93 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: cursive;
+    background-color: yellow;}
+    
+form{
+    height: 50%;
+    width: 50%;
+    padding-top: 0px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: white;
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 200%;
+    color: green;
+    font-family: cursive;
+}
+
+.butao{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    background-color: green;
+    
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.butao:hover{
+    background-color: rgb(0, 99, 0);
+}
+
+.pontos{
+    color: green;
+}
+
+.gifzin{
+    position: static;
+    margin: 1em;
+    height: 50%;
+    width: 50%;
+}
+
+.vitoria{
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgb(0, 35, 35);
+    
+    background-color: blueviolet;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding: 2em;
+    
+}
+
+.botaoR{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 35, 35);
+    width: 50%;
+    height: 60px;
+    cursor: pointer;
+}
+
+.botaoR:hover{
+    background-color: rgb(0, 25, 25);
+}
